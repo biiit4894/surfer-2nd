@@ -1,0 +1,1067 @@
+/*Part 3*/
+#part3 {
+    width: 100%;
+    padding-top: 300px;
+    background-color: black;
+    color: white;
+}
+
+/*도입부 배경에 비디오 시도 */
+/*pixabay video의 '다운로드' 버튼의 링크를 복사해서 줄임 https://bit.ly/3oBAQcF*/
+/* "형, 어제 (걸음 수)얼마 나왔어? */
+.part3_prgph1 {
+    width: 100%;
+    /* height: 1000px; */
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+
+.part3_prgph1 video {
+    margin-top: 200px;
+    width: 100%;
+}
+
+
+.part3_prgph1_text {
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    position: absolute;
+    /* width: 600px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 8;
+}
+
+.part3_prgph1_text p {
+    /* text-align: center; */
+    color: #ffffff;
+    font-family: 'Noto Serif KR', serif;
+}
+
+/* 금천구 대행업체 한일크린 소속 환경미화원 이동진씨와 ..*/
+#part3_prgph2_wrap {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    background-image: 
+        url("../../img/part3_background_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+#part3_prgph2 {
+    width: 620px;
+    line-height: 200%;
+    font-size: 18px;
+    margin-top: 200px;
+    padding-bottom: 300px;
+}
+
+#part3_prgph2 p {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    z-index: 8;
+}
+
+
+#part3_prgph4_wrap,
+#part3_prgph6_img_wrap
+ {
+    display: flex;
+    justify-content: center;
+}
+
+/* 지난 8일(금) 21시 40분 */
+#part3_prgph3 {
+    width: 600px;
+    line-height: 210%;
+    font-size: 18px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.clock {
+    width: 22px;
+    vertical-align:top;
+    margin-right: 7px;
+    background-color: white;
+    border-radius: 22px;
+    border: 0.3px solid white;
+}
+
+#part3_prgph3 strong {
+    font-size: 20px;
+}
+
+/*"3만 보가 하루 평균이에요"*/
+#part3_prgph4 {
+    width: 600px;
+    line-height: 200%;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#part3_prgph3_wrap,
+#part3_prgph3_img_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#part3_img_lee_haengjoo,
+#part3_img_lee_moretrash {
+    width: 30vw;
+    /* box-shadow: 1px 1px 0px rgb(103, 103, 103); */
+}
+
+#part3_prgph3_img_wrap figcaption {
+    width: 30vw;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+#part3_prgph6_img_wrap {
+    margin-top: 100px;
+}
+
+#part3_img_jang_walk {
+    width: 400px;
+    /* box-shadow: 3px 3px 20px rgb(103, 103, 103); */
+}
+
+#part3_img_roh_walk {
+    height: 305.288px;
+    /* box-shadow: 3px 3px 20px rgb(103, 103, 103); */
+}
+
+#part3_prgph6_img_figure figcaption {
+    font-weight: 200;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#part3_prgph6_img_figure_2 figcaption {
+    font-weight: 200;
+    width: 562.162px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/*그가 맡은 구역의 골목은 승용차 하나 경우 지나다닐 수 있다.*/
+/* 영상 배경 */
+#part3_prgph5_wrap {
+    
+    width: 100%;
+    /* height: 1000px; */
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    
+}
+
+#part3_prgph5_wrap video {
+    width: 100%;
+    /* 어두워서 비디오가 너무 안보이네;; */
+    /* box-shadow: 5px 5px 20px rgb(255, 255, 255); */
+}
+
+
+.part3_prgph5_text {
+    background-color: rgba(78, 78, 78, 0.6);
+    padding: 30px;
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 200%;
+    z-index: 8;
+}
+
+.part3_prgph5_text p {
+    /* text-align: center; */
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/*위 그래프는 7월 중 12일간 */
+#part3_prgph7_wrap {
+
+    display: flex;
+    justify-content: center;
+}
+
+#part3_prgph7 {
+    margin-top: 50px;
+    width: 600px;
+    line-height: 210%;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+/* 평균 걸음수 시각화 - PC */
+#part3_prgph7_tableau_wrap_pc {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#part3_prgph7_tableau_wrap_pc {
+    font-weight: 200;
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+}
+
+/* 평균 걸음수 시각화 - 모바일 */
+#part3_prgph7_tableau_wrap_mobile {
+    display: none;
+    font-weight: 200;
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+}
+
+
+#part3_work_per1 {
+    margin-top: 200px;
+}
+
+#part3_work_per1_title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.part3_container {
+    margin-top: 10px;
+}
+
+#part3_work_per1_sign {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+/* 15개 자치구 */
+.category_container {
+    width: 60vw;
+    padding: 0vh 1vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.category {
+    width: 60px;
+    font-size: 15px;
+    color: #000000;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.category:hover {
+    background-color: #0B6031;
+    color: #ffffff;
+    box-shadow: 3px 3px 10px rgb(255, 255, 255);
+}
+
+#img_district_container {
+    margin-top: 40px;
+}
+
+#part3_work_per1_imgcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+/* #part3_district {
+    display: none;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Noto Sans KR, AppleSDGothicNeo, Arial, sans-serif;;
+} */
+
+/*22시 30분*/
+#part3_prgph8_wrap {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+        url("../../img/part3_22_30_lee.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#part3_prgph8 {
+    width: 600px;
+    line-height: 200%;
+    font-size: 18px;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    margin-bottom: 300px;
+}
+
+#part3_prgph8 strong {
+    font-size: 20px;
+}
+
+/*23시 50분: 9*/
+/*운전기사 이정원 씨는: 10*/
+#part3_prgph9_wrap,
+#part3_prgph10_wrap {
+    width: 100%;
+    /* height: 1000px; */
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    
+}
+
+#part3_prgph9_wrap video {
+    margin-top: 200px;
+    width: 100%;
+    filter:opacity(60%);
+}
+
+#part3_prgph10_wrap video {
+    margin-top: 200px;
+    width: 100%;
+    filter:opacity(80%);
+}
+
+#part3_prgph9,
+#part3_prgph10 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#part3_prgph10 {
+    z-index: 8;
+}
+
+#part3_prgph9 p,
+#part3_prgph10 p {
+    /* text-align: center; */
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 200%;
+}
+
+#part3_prgph9 strong {
+    font-size: 25px;
+    line-height: 200%;
+}
+
+#part3_prgph9_2_wrap {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#part3_prgph9_2 {
+    width: 600px;
+    line-height: 200%;
+    font-size: 18px;
+}
+
+/* 본문 비디오 삽입 */
+/* #part3_prgph11_strong_wrap {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+} */
+
+#part3_prgph11_wrap strong {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#part3_prgph11_vid {
+    width: 600px;
+}
+
+#part3_prgph11_wrap {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#part3_prgph11_wrap figcaption {
+    margin-top: 10px;
+    width: 500px;
+    font-size: 14px;
+    font-weight: 200;
+
+}
+
+#part3_prgph11 {
+    margin-left: 20px;
+    width: 550px; /*video랑 병렬이라 폭을 줄임*/
+    line-height: 210%;
+    font-size: 18px;
+    line-height: 200%;
+}
+
+/*00시 20분*/
+/* 배경에 비디오 삽입 */
+#part3_prgph12_wrap {
+    width: 100%;
+    /* height: 1000px; */
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    
+}
+
+#part3_prgph12_wrap video {
+    margin-top: 200px;
+    width: 100%;
+    /* filter:opacity(60%); */
+}
+
+#part3_prgph12 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 210%;
+    z-index: 8;
+}
+
+#part3_prgph12 p {
+    /* text-align: center; */
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#part3_prgph12 strong {
+    font-size: 20px;
+}
+
+/*그들은 바닥에 질질 끈*/
+/* 배경에 비디오 삽입 */
+#part3_prgph13_wrap {
+    width: 100%;
+    /* height: 1000px; */
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    
+}
+
+#part3_prgph13_wrap video {
+    margin-top: 200px;
+    width: 100%;
+    filter:opacity(70%);
+}
+
+#part3_prgph13 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    position: absolute;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 8;
+}
+
+#part3_prgph13 p {
+    /* text-align: center; */
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 200%;
+}
+
+/*5t 트럭에 탑승한 지*/
+/* 배경에 비디오 삽입 */
+#part3_prgph14_wrap {
+    width: 100%;
+    /* height: 1000px; */
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+    
+}
+
+#part3_prgph14_wrap video {
+    margin-top: 200px;
+    width: 100%;
+    /* filter:opacity(70%); */
+}
+
+#part3_prgph14 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    position: absolute;
+    width: 600px;
+    line-height: 180%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 8;
+}
+
+#part3_prgph14 strong {
+    font-size: 20px;
+}
+
+#part3_prgph14 p {
+    /* text-align: center; */
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 200%;
+}
+
+/* 마지막 문단 (문자 사진) */
+#part3_prgph15_wrap {
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#part3_prgph15_wrap img {
+    width: 500px;
+}
+
+#part3_prgph15_wrap figcaption {
+    width: 500px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+#part3_prgph15_wrap figcaption strong {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+/* 세로모드 모바일 디바이스 */
+@media (max-width: 575px) {
+
+    /* "형, 어제 (걸음 수)얼마 나왔어? */
+    /* 도입부 영상 */
+    .part3_prgph1 {
+        /* height: 100vh; */
+    }
+    
+    .part3_prgph1 video {
+        width: 100vw;
+        height: 100vh;
+        object-fit:cover;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        /* z-index: -1; */
+    }
+
+    .part3_prgph1_text {
+        /* position: absolute; */
+        /* margin-top: vh; */
+        width: 80vw;
+        padding: 15px;
+        vertical-align: middle;
+        margin: 0;
+
+    }
+    
+    .part3_prgph1_text p {
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+    .clock {
+        width: 17px;
+        margin-right: 5px;
+        vertical-align:text-top;
+    }
+
+    /* 금천구 대행업체 한일크린 소속 환경미화원 이동진씨와 ..*/
+    #part3_prgph2_wrap {
+        width: 100vw;
+    }
+    #part3_prgph2 {
+        width: 100vw;
+        line-height: 200%;
+        font-size: 16px;
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #part3_prgph2_wrap {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        background-image: 
+            url("../../img/part3_background_1.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        }
+    
+    #part3_prgph2 p {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+    }
+
+    /* 지난 8일(금) 21시 40분 */
+    #part3_prgph3 {
+        width: 88vw;
+        line-height: 210%;
+        font-size: 16px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+    }
+
+    #part3_prgph3 strong{
+        font-size: 18px;
+    }
+
+    #part3_prgph3_img_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #part3_prgph3_img_wrap img,
+    #part3_prgph3_img_wrap figcaption  {
+        width: 80vw;
+    }
+
+    /***/
+    
+    /*"3만 보가 하루 평균이에요"*/
+    #part3_prgph4 {
+        width: 88vw;
+        line-height: 200%;
+        font-size: 16px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    /*그가 맡은 구역의 골목은 승용차 하나 경우 지나다닐 수 있다.*/
+    /* 영상 배경 */
+    #part3_prgph5_wrap {
+        
+        width: 100%;
+        /* height: 1000px; */
+        overflow: hidden;
+        margin: 0px auto;
+        position: relative;
+        
+    }
+
+    #part3_prgph5_wrap video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        /* z-index: -1; */
+
+        /* 어두워서 비디오가 너무 안보이네;; */
+        /* box-shadow: 5px 5px 20px rgb(255, 255, 255); */
+    }
+
+
+    .part3_prgph5_text {
+        background-color: rgba(78, 78, 78, 0.6);
+        padding: 20px;
+        position: absolute;
+        width: 90vw;
+        /* top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); */
+        line-height: 200%;
+    }
+
+    .part3_prgph5_text p {
+        /* text-align: center; */
+        width: 88vw;
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+    #part3_prgph6_img_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #part3_img_jang_walk {
+        width: 70vw;
+        height: auto;
+    }
+
+    #part3_img_roh_walk {
+        width: 70vw;
+        height: auto;
+    }
+
+    #part3_prgph6_img_wrap figcaption {
+        width: 70vw;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    /* 평균 걸음수 시각화 - PC */
+    #part3_prgph7_tableau_wrap_pc {
+        display: none;
+    }
+
+    /* 평균 걸음수 시각화 - 모바일 */
+    #part3_prgph7_tableau_wrap_mobile {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #part3_prgph7_tableau_wrap_mobile figcaption {
+        font-size: 14px;
+        margin-left: -60px;
+    }
+    
+    /*위 그래프는 7월 중 12일간 */
+    #part3_prgph7_wrap {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    #part3_prgph7 {
+        margin-top: 50px;
+        width: 88vw;
+        line-height: 200%;
+        font-size: 16px;
+        margin-bottom: 100px;
+    }
+
+    /*22시 30분*/
+    #part3_prgph8_wrap {
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+            url("../../img/part3_22_30_lee.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #part3_prgph8 {
+        width: 88vw;
+        line-height: 200%;
+        font-size: 16px;
+        margin-top: 200px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 40px;
+        margin-bottom: 300px;
+    }
+
+    #part3_prgph8 strong {
+        font-size: 18px;
+    }
+
+    /*23시 50분: 9*/
+    /* 비디오 배경 */
+    #part3_prgph9_wrap {
+        width: 100%;
+        /* height: 1000px; */
+        overflow: hidden;
+        margin: 0px auto;
+        position: relative;
+        
+    }
+
+    #part3_prgph9_wrap video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        /* z-index: -1; */
+    }
+
+    #part3_prgph9{
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        position: absolute;
+        width: 80vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    #part3_prgph9 strong {
+        font-size: 20px;
+        line-height: 200%;
+    }
+
+    #part3_prgph9_2_wrap {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #part3_prgph9_2 {
+        width: 88vw;
+        line-height: 200%;
+        font-size: 16px;
+    }
+
+    /*운전기사 이정원씨는: 10*/
+    #part3_prgph10_wrap video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        /* z-index: -1; */
+    }
+
+    #part3_prgph10 {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        position: absolute;
+        width: 88vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    #part3_prgph10 p {
+        /* text-align: center; */
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 200%;
+    }
+
+    /* 본문 비디오 삽입 */
+    #part3_prgph11_vid {
+        width:100vw;
+    }
+
+    #part3_prgph11_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-top: 150px; */
+    }
+
+    #part3_prgph11_wrap figcaption {
+        width: 90vw;
+        font-size: 12px;
+        font-weight: 200;
+        margin-left: 10px;
+
+    }
+
+    #part3_prgph11 {
+        margin-top: 50px;
+        width: 88vw;
+        line-height: 200%;
+        font-size: 16px;
+    }
+
+    #part3_prgph11 div {
+        margin-bottom: 7px;
+    }
+
+    #part3_prgph11 div strong {
+        font-size: 18px;
+    }
+
+    /*00시 20분*/
+    /* 배경에 비디오 삽입 */
+    #part3_prgph12_wrap {
+        width: 100%;
+        /* height: 1000px; */
+        overflow: hidden;
+        margin: 0px auto;
+        position: relative;
+        
+    }
+
+    #part3_prgph12_wrap video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    #part3_prgph12 {
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        width: 88vw;
+        margin-top: 20%;
+        line-height: 200%;
+    }
+
+    #part3_prgph12 p {
+        /* text-align: center; */
+        
+        color: #ffffff;
+    }
+
+    #part3_prgph12 strong {
+        font-size: 18px;
+    }
+
+    /*그들은 바닥에 질질 끈*/
+    /* 배경에 비디오 삽입 */
+    #part3_prgph13_wrap {
+        width: 100%;
+        /* height: 1000px; */
+        overflow: hidden;
+        margin: 0px auto;
+        position: relative;
+        
+    }
+
+    #part3_prgph13_wrap video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        /* z-index: -1; */
+        filter:opacity(70%);
+    }
+
+    #part3_prgph13 {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        width: 88vw;
+        margin-top: 20%;
+        font-size: 16px;
+    }
+
+    #part3_prgph13 p {
+        /* text-align: center; */
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 200%;
+    }
+
+    /*5t 트럭에 탑승한 지*/
+    /* 배경에 비디오 삽입 */
+    #part3_prgph14_wrap {
+        width: 100%;
+        /* height: 1000px; */
+        overflow: hidden;
+        margin: 0px auto;
+        position: relative;
+        
+    }
+
+    #part3_prgph14_wrap video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        /* z-index: -1; */
+        filter:opacity(70%);
+    }
+
+    #part3_prgph14 {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        width: 88vw;
+        margin-top: 20%;
+    }
+
+    #part3_prgph14 p {
+        /* text-align: center; */
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 200%;
+    }
+
+    /* 마지막 문단 (문자 사진) */
+    #part3_prgph15_wrap {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #part3_prgph15_wrap img {
+        width: 80vw;
+    }
+
+    #part3_prgph15_wrap figcaption {
+        width: 80vw;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    #part3_prgph15_wrap figcaption strong {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}
+
+/* 가로모드 모바일 디바이스 */
+@media (max-width: 767px) {
+        /* 15개 자치구 */
+        /* .category_container {
+            width: 90vw;
+            padding: 0vh 0.5vw;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .category {
+            width: 5vw;
+        } */
+
+}
+
+/* 갤럭시 폴드 가로모드 - 대처 노답 */
+@media (width: 653px) {
+
+
+}
+
+/* 태블릿 디바이스 */
+@media (max-width: 991px) {
+
+
+}
+
+/* 데스크탑 */
+@media (max-width: 1199px) {
+    
+}

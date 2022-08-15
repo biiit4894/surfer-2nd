@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-52L6Q9W58D"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-52L6Q9W58D');
+    </script>
+    <meta property="og:image" content="/img/banner_background_sy.JPG"> 
+    <meta property="og:title" content="환경미화원의 가슴에 만보기가 달린 이유"> 
+    <meta property="og:description" content="SURFER 두번째 기획 기사"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/img/sea-waves.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <title>환경미화원의 가슴에 만보기가 달린 이유 | SURFER</title>
+    <!--article용, footer용 css 다시 만들었음-->
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/test_navbar.css">
+    <link rel="stylesheet" href="css/test_banner.css">
+    <link rel="stylesheet" href="css/test_intro.css">
+    <link rel="stylesheet" href="css/test_part1.css">
+    <link rel="stylesheet" href="css/test_part2.css">
+    <link rel="stylesheet" href="css/test_part3.css">
+    <link rel="stylesheet" href="css/test_part4.css">
+    <link rel="stylesheet" href="css/test_footer.css">
+    <link rel="stylesheet" href="css/test.css">
+    <!--part 2 도입부 내러티브 aos 애니메이션-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <div class="item" id="left_items">
+            <a class="linked_icon" href="https://surfer-archive.netlify.app/" target="_blank">
+                <img id="surfer_icon" href="" src="img/sea.png">
+            </a>
+            <a class="linked_icon" id="linked_icon_github" href="https://github.com/biiit4894/Surfer_2nd" target="_blank">
+                Github
+                <!-- <img id="github_icon" src="img/github.png"> -->
+            </a>
+            <a class="linked_icon" href="" target="_blank">
+                Notion
+            </a>
+        </div>
+    </div>
+    
+    <!--모바일 햄버거 버튼 -->
+    <div class="mobile_hamburger_container">
+        <button class="mobile_hamburger_button">&#9776;</button>
+    </div>
+
+    <div class="mobile_menu_container">
+        <div class="mobile_menu" onclick="animateScrollTo('#intro',500)">편집자주</div>
+        <div class="mobile_menu" onclick="animateScrollTo('#part1',500)">Part 1</div>
+        <div class="mobile_menu" onclick="animateScrollTo('#part2',500)">Part 2</div>
+        <div class="mobile_menu" onclick="animateScrollTo('#part3',500)">Part 3</div>
+        <div class="mobile_menu" onclick="animateScrollTo('#outro #article_title',500)">Part 4</div>
+    </div>
+
+    <div id="toc_wrapper">
+        <div id="toc_wrapper_title">목차</div>
+        <div onclick="animateScrollTo('#intro',500)">편집자주</div>
+        <div onclick="animateScrollTo('#part1',500)">Part 1</div>
+        <div onclick="animateScrollTo('#part1 .article_title_serif',500)">1-1</div>
+        <div onclick="animateScrollTo('.part1_tableau_wrap',500)">1-2</div>
+        <div onclick="animateScrollTo('#part2',500)">Part 2</div>
+        <div onclick="animateScrollTo('#part3',500)">Part 3</div>
+        <div onclick="animateScrollTo('#outro #article_title',500)">Part 4</div>
+    </div>
+
+    <!-- SNS 공유 버튼 -->
+    <!-- <div id="share_btn_wrap">
+        <a id="btnKakao" class="link-icon kakao" href="javascript:shareKakao();">공유하기</a>
+    </div> -->
+
+    <!-- 랜딩페이지 -->
+    <div id="banner">
+        <!-- <div id="banner_img_wrap">
+            <img id="banner_just_image" src="img/banner_just_image.png">
+        </div> -->
+        <div id="banner_title">
+            환경미화원의<br>
+            가슴에<br>
+            만보기가<br>
+            <div id="banner_title_2"> 달린 이유</div>
+        </div>
+    </div>
+
+    <!--편집자주-->
+    <div id="intro">
+        <div class="text_content" id="intro_prgph1">
+            <!-- <div id="article_title" class="intro_article_title">편집자주</div> -->
+            우리나라에서는 산업재해(이하 산재)로 작년 한 해에만 2,062명이 안타까운 죽음을 맞이했습니다.
+            우리나라에서만 근로자 200명 당 1명꼴로 산재가, 그리고 1만 명 당 1명꼴로 사망 사고가 발생하는 겁니다.
+            <a href="https://www.who.int/news/item/16-09-2021-who-ilo-almost-2-million-people-die-from-work-related-causes-each-year" target="_blank">세계보건기구(WHO)와 국제노동기구(ILO)의 공동 조사</a>
+            에 따르면, 전 세계적으로 매년 200만 명이 산재로 사망한다고 합니다.
+            <br><br>
+            이런 사고를 줄이기 위해 지난 6월 10일(금), 제110차 국제노동총회에서 ILO는 ‘노동기본권’에 ‘안전하고 건강한 근로환경'을 추가했습니다.
+            <br>
+            <small>(1998년 &lt;노동 기본원칙과 권리선언&gt;에서 나온 ‘노동기본권’은 
+                ▲결사의 자유 및 단체교섭의 효과적 인정 
+                ▲모든 형태의 강제노동 철폐 
+                ▲아동노동의 효과적 철폐 
+                ▲고용과 직업상의 차별 철폐 등 4가지 분야로 이루어져 있습니다.)
+            </small>
+            <br><br>
+            더불어, ILO는 산업안전 보건 분야 협약 중 제155호(산업안전보건과 작업환경)와 제187호(산업안전보건 증진체계)를 
+            모든 회원국이 존중·증진·실현해야 할 가장 기본적 협약으로 삼도록 했습니다.
+            우리나라는 2008년부터 위 두 협약에 동의해 따르고 있으며, 
+            산업안전보건법 1조에도 노동자의 산재를 예방하고 안전한 노동 환경을 조성해야 한다는 목적을 명시하고 있습니다. 
+            <br><br>
+            국제적으로 안전한 노동환경의 중요성은 커지고 있지만, 우리나라의 산재는 매년 증가하는 추세입니다.
+            특히 환경미화원의 산재는 더욱이 심각했습니다.
+        
+            <br><br>
+            매년 산재로 인한 사망자 수는 약 2,000명으로 
+            비교적 일정한데 비해 환경미화원의 사망자 수는 계속해서 증가하고 있었습니다.
+            왜 환경미화원에게 이런 일이 발생하고 있는 걸까요?
+            <br><br>
+            <small>
+                <img src="img/checkbox.png" style="width: 17px; vertical-align: text-bottom">&nbsp;&nbsp;환경미화원은 크게 가로청소 인력과 수집·운반 인력으로 나뉩니다. 
+                그리고 ‘SURFER’는 환경미화원의 노동 환경 문제를 심층적으로 살펴보기 위해 
+                이들 중 상대적으로 더 무리한 육체 노동을 하는 수집·운반 인력을 중심으로 데이터를 수집·분석하였습니다.
+            </small>
+        </div>
+    </div>
+
+    <!-- Part 1. 쓰레기가 쌓일수록 산재가 쌓였다 -->
+    <div id="part1">
+        <div id="article_title" class="article_title_serif">Part 1.</div>
+        <div id="article_title">쓰레기가 쌓일수록 산재가 쌓였다</div>
+    
+        <div class="article_title_small" id="article_title_small_serif">1</div>
+        <div class="article_title_small">환경미화원 사망사건 리포트</div>
+
+        <div class="part1_prgph_wrap" id="part1_prgph_wrap1">
+            <div class="part1_prgph" id="part1_prgph1">
+    
+                <span class="part1_prgph1_cat" id="part1_prgph1_cat1">적재함 협착</span><br>
+    
+                <div class="part1_txtbox" id="part1_txtbox1">
+                    <strong>2017년 11월 29일</strong><br>
+                    광주광역시에서 23년간 환경미화원으로 근무한 <strong>노연수</strong> 씨(가명)가 적재함에 끼어 숨졌다.<br>
+                    <strong>노연수</strong> 씨는 위생매립장에서 적재함과 열린 덮개 사이에서 잔여 쓰레기를 치우고 있었다.<br>
+                    쓰레기를 처리하다 갑자기 수거 차량의 덮개가 닫혔고 그의 머리가 끼었다.
+                </div>
+    
+                <div class="part1_txtbox" id="part1_txtbox4">
+                    머리를 크게 다쳐 곧바로 병원으로 옮겨졌지만 그는 깨어나지 못했다.<br>
+                    사고 업체 관계자는 적재함과 덮개 사이에는 사람이 들어가지 못하게 막고 있다고 전했다.<br>
+                    기계가 오작동할 수 있기 때문이다.<br>
+                    그럼에도 불구하고 청소차량 안전 부주의로 인한 환경미화원의 안전 사고는 잇따르고 있다.
+                </div>
+            </div>
+        </div>
+
+        <div class="part1_prgph_wrap" id="part1_prgph_wrap2">
+            <div class="part1_prgph">
+                <span class="part1_prgph1_cat" id="part1_prgph1_cat2">업무상 질병</span><br>
+    
+                <div class="part1_txtbox">
+                    <strong>2018년 11월 13일</strong><br>
+                    <strong>이정현 씨</strong>(가명)가 폐암으로 숨을 거뒀다.<br>
+                    지난하고 길었던 10개월간의 산재 승인 심사가 통과된 다음 날이었다.<br>
+                    <strong>이정현</strong> 씨는 순천에서 21년간 환경미화원으로 일했다.<br>
+                    슬레이트나 분진, 연탄 등을 옮기기도 했고 미세먼지가 심한 날에도 어김없이 출근했다.
+                </div>
+                <div class="part1_txtbox" id="part1_txtbox4">
+                    청소차에 매달려 배기관 매연과 씨름하기를 20년. <br>
+                    매일같이 들이키는 자동차 매연은 조금씩 황씨의 건강을 좀먹었고,
+                    퇴직하고서야 폐암을 발견할 수 있었다.<br>
+                    수술도 불가능한 4기였다.<br>
+                    회사에서 제공하는 건강 검진이 있었지만,
+                    기본적인 수준에 그쳐 미리 폐암을 잡아낼 수 없었다.
+                </div>
+
+                <p>※ 배경 이미지 출처: © 경상일보 http://www.ksilbo.co.kr/news/articleView.html?idxno=152327</p>
+            </div>
+        </div>
+
+        <div class="part1_prgph_wrap" id="part1_prgph_wrap3">
+            <div class="part1_prgph">
+                <span class="part1_prgph1_cat" id="part1_prgph1_cat3">골절/떨어짐/교통사고</span><br>
+    
+                <div class="part1_txtbox">
+                    <strong>2020년 11월 6일</strong><br>
+                    대구광역시 환경미화원 <strong>박정태</strong> 씨(가명)가 교통사고로 목숨을 잃었다.<br>
+                    <strong>박정태</strong> 씨는 음식물 쓰레기 수거원으로 일했다. <br>
+                    그는 그날도 여느 때와 다름없이 동료와 함께 다음 수거 장소로 이동하기 위해<br> 청소차 뒷편에 매달려 신호를 기다리고 있었다.
+                </div>
+    
+                <div class="part1_txtbox">
+                    그러던 중 음주운전자가 자신의 승용차로 음식물 쓰레기 수거 차량을 뒤에서 들이박았다.<br>
+                    당시 수거 차량 뒤쪽 발판에 서있던 <strong>박정태</strong> 씨는 충돌을 피하지 못하고 크게 다쳐 병원에 이송됐지만 결국 숨졌다.<br><br>
+                    청소차 뒷발판은 환경미화원을 사지에 내몬다.<br>
+                    그러나 업무 시간 안에 담당 구역의 쓰레기를 모두 빠르게 수거하기 위해서는 작은 뒷발판에 매달릴 수 밖에 없다.<br>
+                    결국 그도 청소차 뒷발판으로 인한 사고를 피하지 못했다.
+                </div>
+
+                <p>※ 배경 이미지 출처: ⓒ 서울경제 https://www.sedaily.com/NewsView/26243158GC</p>
+            </div>
+        </div>
+
+        <div class="article_title_small" id="article_title_small_serif">2</div>
+        <div class="article_title_small">5년간 환경미화원 산재사고 현황</div>
+
+        <!--환경미화원 산재 처리 현황-->
+        <div class="part1_tableau_wrap">
+            <!--PC-->
+            <!-- <div class='tableauPlaceholder' id='viz1659191383804' style='position: relative'><noscript><a href='#'><img alt='환경미화원 산재 처리 현황  *표준직업분류 중  &#39;환경·청소 및 경비 관리자(153), 청소원 및 환경미화원(941)을 추출 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3P&#47;3PJMP7BKF&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;3PJMP7BKF' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3P&#47;3PJMP7BKF&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659191383804');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='820px';vizElement.style.height='527px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+            <!--제목 없는 ver-->
+            <figure>
+                <figcaption>
+                    <strong>환경미화원의 산업재해 현황</strong>&nbsp;
+                    <br>
+                    <div id="part1_tableau_figcaption_small_1">
+                        &nbsp;&nbsp;&nbsp;*해당 데이터는 한국 표준직업분류 중 '환경·청소 및 경비 관련 관리자(153)', '청소원및 환경미화원(941)'을 추출한 데이터입니다.<br>
+                        &nbsp;&nbsp;&nbsp;*데이터 출처. 근로복지공단 정보공개청구
+                    </div>
+                </figcaption>
+                <div class='tableauPlaceholder' id='viz1659970108281' style='position: relative'><noscript><a href='#'><img alt='환경미화원 산재 처리 현황  *표준직업분류 중 환경·청소 및 경비 관리자(153), 청소원 및 환경미화원(941)을 추출 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part1-1_PC&#47;PC&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Part1-1_PC&#47;PC' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part1-1_PC&#47;PC&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ko-KR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659970108281');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='820px';vizElement.style.height='477px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+        <div class="part1_tableau_wrap_hidden">
+            <!--Mobile-->
+            <!-- <div class='tableauPlaceholder' id='viz1659191340087' style='position: relative'><noscript><a href='#'><img alt='환경미화원 산재 처리 현황*표준직업분류 중  &#39;환경·청소 및 경비 관리자(153), 청소원 및 환경미화원(941)을 추출 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QK&#47;QK98NSHY4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;QK98NSHY4' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;QK&#47;QK98NSHY4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ko-KR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659191340087');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='300px';vizElement.style.height='477px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+            <!--제목없는 ver-->
+            <figure>
+                <figcaption>
+                    <strong>환경미화원의 산업재해 현황</strong>&nbsp;
+                    <br>
+                    <small>
+                        *해당 데이터는 한국 표준직업분류 중 '환경·청소 및 경비 관련 관리자(153)', '청소원및 환경미화원(941)'을 추출한 데이터입니다.
+                        <br>   
+                        *데이터 출처. 근로복지공단 정보공개청구
+                    </small>
+                </figcaption> 
+                <div class='tableauPlaceholder' id='viz1659535530102' style='position: relative'><noscript><a href='#'><img alt='모바 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;BM&#47;BM7NPSNBN&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;BM7NPSNBN' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;BM&#47;BM7NPSNBN&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ko-KR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659535530102');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='300px';vizElement.style.height='477px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </figure>
+            
+        </div>    
+
+        <div class="text_content" id="part1_part2_wrap">
+            <div id="part1_part2">
+                2016년부터 2020년까지 환경미화원의 산재 신청 현황은 2016년 4,870건에서 2020년 7,034건으로 증가하는 추세다. 
+                그리고 이를 뒷받침하듯 승인 현황 역시 2016년 4,319건에서 2020년 6,354건으로 증가하는 경향을 보인다.
+                <br><br>
+                한편, 환경미화원의 산재 사고 승인율은 90%를 상회했지만 질병 및 사망 승인율은 50%를 웃돌고 있었다. 
+                <br><br>
+                이에 대해 한국노동사회연구소 박채은 연구위원은 “업무 도중 위험에 노출된 사람들에게 어떤 병이 일어날 것이라는 예견 가능성이 쉽게 판단되지 않기 때문에 문제가 많다”고 말했다. 
+                <br><br>
+                뿐만 아니라, 지자체와 정부의 질병·사고 통계에도 잡히지 않는 여러 산재가 존재했다. 금천구 환경미화원 최상열 씨는 “일단 찢어지고 베이는 것들은 산재로 취급을 안 한다. 근골격계 질환도 다 알아서 치료받고 우선 다쳐도 (승인되지 않으니까) 산재 처리를 아예 안 하는 경우가 많다”고 전했다.  
+                <br><br>
+                결국 떨어지거나 끼어야만 산재 처리가 쉽다는 말이다.
+            </div>
+        </div>
+    </div>
+
+    <!-- Part 2. 기인물별 산재 원인 1위, 수거차량-->
+    <div id="part2">
+        <div id="article_title" class="article_title_serif">Part 2.</div>
+        <div id="article_title">기인물별 산재 원인 1위, 수거차량 </div>
+
+            <!--왼쪽에서 오른쪽으로 이동하는 청소차, 위로 올라오는 인용구, 대각선으로 떨어지는 미화-->
+            <!-- <div data-aos="fade-right">
+                <div id="car_fromleft_wrap">
+                    <img id="car_fromleft" src="img/car.png">
+                </div>
+            </div> -->
+    
+            <div id="part2_quote_wrap">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div id="part2_quote">
+                        <span id="part2_quote_mark">"</span>&nbsp;동료가 수거 차량 위에서 떨어졌던 적 있어요. <br>
+                        &nbsp;&nbsp;&nbsp;그 사람은 사고 나고 6개월 동안 일을 쉬었죠.<br>
+                        &nbsp;&nbsp;&nbsp;또 다른 사람은 음식물 수거 차에서 내리다가 미끄러져서 지금 입원 중이에요&nbsp;<span id="part2_quote_mark">"</span>
+                        <div id="part2_quote_src" style="margin-top: 7px; text-align: right; font-weight: 300;">
+                            <small>- 금천구 환경미화원 이동진</small>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div data-aos="fade-down-left">
+                <div id="falling_worker_wrap">
+                    <img id="falling_worker" src="img/falling_worker.png">
+                </div>
+            </div> -->
+
+            <div id="mobile_part2_quote_wrap">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div id="part2_quote">
+                        <span id="part2_quote_mark">"</span>&nbsp;동료가 수거 차량 위에서 떨어졌던 적 있어요. <br>
+                        &nbsp;&nbsp;&nbsp;그 사람은 사고 나고 6개월 동안 일을 쉬었죠.<br>
+                        &nbsp;&nbsp;&nbsp;또 다른 사람은 음식물 수거 차에서 내리다가<br> 
+                        &nbsp;&nbsp;&nbsp;미끄러져서 지금 입원 중이에요&nbsp;<span id="part2_quote_mark">"</span>
+                        <div id="part2_quote_src" style="margin-top: 7px; text-align: right; font-weight: 300;">
+                            <small>- 금천구 환경미화원 이동진</small>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="text_content" id="part2_prgph1_wrap">
+                <div id="part2_prgph1">
+                    2018년 고용노동부와 안전보건공단이 발간한 생활폐기물 수집·운반작업 <a href="https://webcache.googleusercontent.com/search?q=cache:o4nApjsTeHEJ:https://kosha.or.kr/kosha/data/business/serviceSafetyBusinessData.do%3Fmode%3Ddownload%26articleNo%3D411475%26attachNo%3D232946+&cd=1&hl=ko&ct=clnk&gl=kr" target="_blank">「환경미화원 작업안전수칙 가이드」</a>
+                    에 따르면, 2015년부터 2017년까지 환경미화원의 산재를 초래한 직접적인 원인이 되는 장비(혹은 설비)나 물질은 
+                    ‘수거차량’, ‘바닥 및 지표면’, ‘용기, 꾸러미 및 기구’, ‘조각·파편·쓰레기’다. 
+                </div>                    
+                
+                <!--여기에 SVG 넣기-->
+                <div id="part2_cause_material_wrap">
+                    <figure>
+                        <figcaption>▼ 환경미화원의 기인물별 재해발생 현황</figcaption>
+                        <img id="part2_cause_material" src="img/cause_material_notitle.svg">
+                    </figure>
+                </div>
+
+                <div id="part2_cause_material_mobile_wrap">
+                    <figure>
+                        <figcaption>▼ 환경미화원의 기인물별 재해발생 현황</figcaption>
+                        <img id="part2_cause_material" src="img/cause_material_mobile_notitle.svg">
+                    </figure>
+                </div>
+
+                <div id="part2_prgph2">
+                    특히 3년간 발생한 수거 차량으로 인한 재해는 1,822건 중 679건으로 약 37%를 차지한다. 
+                    그 뒤를 바로 잇는 바닥 및 지표면(18.7%), 용기, 꾸러미 및 기구(6.3%)에 비해 
+                    상당수의 사고가 차량에서 발생하고 있던 것이다.
+                    <br><br>
+                    쓰레기 수거는 차량과 함께 이동하며 이뤄진다. 
+                    <!--2016년~ 멘트 수정 가능-->
+                    저널리즘팀이 작업 현장을 방문한 서울시 금천구의 경우 2016년에 ‘덤프 트럭’ 형태의 청소차는 20대에서 점차 감소해 2020년부터 더이상 운용되지 않는다.
+                    그러나 <a href="https://www.recycling-info.or.kr/rrs/stat/envStatList.do?menuNo=M13020201" target="_blank">서울시 전체 덤프 트럭 현황</a>은 263대에서 290대로 오히려 증가 추세에 있다. 
+                    덤프 트럭은 수거원이 3m 이상 높이의 덤프트럭 적재함에 올라타 
+                    발로 쓰레기를 누르며 공간을 확보해야 하기 때문에 추락 위험이 크다.
+                </div>
+            </div>
+
+            <!--현장 취재 종합: 청소차 부위별 문제점-->
+            <div id="part2_problem">
+                <figure>
+                    <figcaption id="part2_problem_caption">
+                        <strong>금천구 압착 진개차</strong> 
+                        <br>
+                        <div id="figcaption_small"><span>*</span>흰색 영역을 눌러 사고 예방을 위해 차량에 탑재된 요소를 확인해보세요.</div>
+                    </figcaption>
+                    <img src="img/withcircle_white_2.png" onclick="action_coords(event)" alt="환경미화차량"
+                    id="part2_problem_car" usemap="#problemmap" width="800" height="340">
+                    <map name="problemmap">
+                        <!--좌표는 offset(현재 오브젝트 기준 위치)기준이어야 함-->
+                        <area id="camera" shape="circle" coords="74, 49, 44" />
+
+                        <area id="safetySwitch" shape="circle" coords="228, 179, 32" />
+                        
+                        <area class="lightAndStrip" shape="circle" coords="108, 261, 17" />
+                        <area id="lightAndStrip_2" class="lightAndStrip" shape="circle" coords="320, 208, 18" />
+                        <area id="lightAndStrip_3" class="lightAndStrip" shape="circle" coords="572, 203, 20" />
+                        <area id="lightAndStrip_4" class="lightAndStrip" shape="circle" coords="760, 209, 19" />
+                        <!-- <area id="lightAndStrip_5" class="lightAndStrip" shape="rect" coords="44, 123, 590, 136"> -->
+
+                        <area id="stopSwitch" shape="circle" coords="30, 224, 28">
+                    </map>
+                </figure>
+
+                <!--1. 후면카메라 모달-->
+                <div id="cameraModal" class="modal">
+                    <div class="modal-content">
+                        <span id="cameraSpan" class="close">&times;</span>
+                        <section class="modal_content_title">후방 영상 장치</section>
+                        <hr>
+                        <div class="modal_content_img_text_wrap">
+                            <div class="modal_content_img_wrap">
+                                <figure>
+                                    <img src="img/camera_modal_content_1.jpg">
+                                    <figcaption>차량 뒤편 위쪽에 설치된 영상 카메라</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="img/camera_modal_content_2.jpg">
+                                    <figcaption>운전자가 볼 수 있는 후방 영상 모니터</figcaption>
+                                </figure>
+                            </div>
+                            <div class="modal_content_text">
+                                운전자는 전방을 주시해야 하기 때문에 운전 중에는 차량 뒤편 작업 상황을 파악하지 못한다. 
+                                사람이 갑자기 튀어나오는 등 예측 불가능한 상황에 대처하기도 어려웠다. 
+                                <br><br>
+                                후방 영상 장치는 이러한 운전자의 사각지대를 제거한다. 
+                                적재함 위에 설치된 작은 카메라로 수거원의 뒤편 작업 상황을 녹화하고, 
+                                운전자는 모니터링 화면을 통해 이를 실시간으로 확인할 수 있다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--2. 양손조작 안전 스위치 모달-->
+                <div id="safetySwitchModal" class="modal">
+                    <div class="modal-content">
+                        <span id="safetySwitchSpan" class="close">&times;</span>
+                        <section class="modal_content_title">양손조작 안전 스위치</section>
+                        <hr>
+                        <div class="modal_content_img_text_wrap">
+                            <div class="modal_content_img_wrap">
+                                <figure>
+                                    <img src="img/switch_modal_content_1.jpg">
+                                    <figcaption>동시에 눌러야만 적재함의 덮개를 닫을 수 있는 스위치</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="img/switch_modal_content_2.jpg">
+                                    <figcaption>적재함 속 쓰레기 봉투가 압축되는 모습</figcaption>
+                                </figure>
+                            </div>
+                            <div class="modal_content_text">
+                                적재함 내부에 눌러 붙은 쓰레기 잔여물은 악취의 원인이 되기 때문에 
+                                수거원은 주기적으로 잔여물을 제거한다.
+                                <br>
+                                수거원이 적재함 내부를 청소하고 있다는 것을 모른 채,
+                                운전자가 덮개 닫을 경우 수거원이 적재함에 끼이는 사고가 발생할 수 있다. 
+                                <br>
+                                차량 측면에 설치된 양손 조작 안전 스위치는 이러한 협착 사고를 방지한다. 
+                                사진 속 스위치 버튼 두 개를 모두 눌러야만 완전히 적재함을 닫을 수 있어 
+                                수거원의 신체가 적재함과 덮개 사이에 끼이는 사고를 막을 수 있다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--3. 청소차량에 부착된 작업표시등, 반사띠 모달-->
+                <div id="lightAndStripModal" class="modal">
+                    <div class="modal-content">
+                        <span id="lightAndStripSpan" class="close">&times;</span>
+                        <section class="modal_content_title">청소차량에 부착된 작업표시등, 반사띠</section>
+                        <hr>
+                        <div id="light_strip_img_text_wrap" class="modal_content_img_text_wrap">
+                            <div id="light_strip_img_wrap" class="modal_content_img_wrap">
+                                    <img id="light_strip_img" src="img/lightAndStrip_modal_content_1.jpg"> 
+                                    <figcaption>차량 측면에 위치한 주황색 작업표시등과 노란색 반사띠</figcaption>
+                            </div>
+                            <div id="light_strip_text" class="modal_content_text">
+                                야간작업 시 차량이 다른 운전자의 눈에 띄기 쉽도록 작업표시등과 반사띠를 부착했다. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--4. 긴급 정지 스위치 (안전 멈춤바) 모달-->
+                <div id="stopSwitchModal" class="modal">
+                    <div class="modal-content">
+                        <span id="stopSwitchSpan" class="close">&times;</span>
+                        <section class="modal_content_title">긴급 정지 스위치 (안전 멈춤바)</section>
+                        <hr>
+                        <div class="modal_content_img_text_wrap">
+                            <div class="modal_content_img_wrap">
+                                <figure>
+                                    <img src="img/stopSwitch_modal_content_1.jpg">
+                                    <figcaption>회전판이 돌아가면서 쓰레기를 적재함으로 밀어넣는 모습</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="img/stopSwitch_modal_content_2.jpg">
+                                    <figcaption>무릎으로 누르면 회전판 작동이 멈추는 노란색 스위치</figcaption>
+                                </figure>
+                            </div>
+                            <div class="modal_content_text">
+                                수거원이 쓰레기를 차량에 실으면 내부 회전판이 돌면서 쓰레기를 적재함 안쪽으로 밀어 넣는다.
+                                <br>
+                                안전 멈춤바는 수거원이 폐기물 상차 작업 도중 손이 회전판에 빨려 들어가지 않도록 막는다. 작업자는 다리 위치에 있는 버튼을 무릎으로 신속히 눌러 기계의 작동을 멈출 수 있다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="part2_prgph2_2_wrap">
+                <div id="part2_prgph2_2">
+                    위 사진 속 차량은 유압으로 쓰레기를 압착하는 ‘압착 진개차’다. 
+                    수거원이 떨어질 위험을 안고 차량 위에 올라타 직접 압축할 필요가 없다. 
+                    금천구는 덤프 트럭 차량 교체 밖에도 2019년 환경부가 
+                    <a href="https://www.law.go.kr/LSW/LsiJoLinkP.do?lsNm=%ED%8F%90%EA%B8%B0%EB%AC%BC%EA%B4%80%EB%A6%AC%EB%B2%95+%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99&paras=1&docType=JO&languageType=KO&joNo=001600003#" target="_blank">
+                        수거차량 내 안전장치 설치를 의무화하는 조항을 신설
+                    </a>하면서 안전 사고를 예방할 수 있는 여러 요소를 탑재했다.
+                </div>
+            </div>
+
+            <div id="part2_prgph2_wrap">
+                <div id="part2_prgph2">
+                    <strong>&nbsp;&nbsp;배기관 방향 전환, 충분치 않아</strong>
+                    <hr>
+                    <div id="part2_prgph2_img_wrap">
+                        <figure>
+                            <img id="part2_prgph2_img_1" src="img/part2_prgph2_img_1.png">
+                            <figcaption>노원구 대행업체 수거 차량의 배기관</figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <img id="part2_prgph2_img_2" src="img/part2_prgph2_img_2.png">
+                            <figcaption>금천구 대행업체 수거 차량의 배기관</figcaption>
+                        </figure>
+                    </div>
+                    <div id="part2_prgph2_div">
+                        청소차의 배기관은 측면으로 꺾여 있는 구조다. 
+                        차량 뒤편에서 일하는 수거원이 배기 가스를 고스란히 떠안는 것을 방지하기 위함이다. 
+                        그러나 금천구 대행 업체 환경미화원들은 
+                        배기관 방향 전환으로는 폐질환을 예방하는데 부족하다고 강조했다. 
+                        근본적인 가스 노출을 막으려면 배기관 배출 방향이 
+                        하늘로 향해 있어야 한다는 것이다. 
+                        그들은 배기 가스가 아래로 나오는 이상, 
+                        폐질환 발병 위험성을 떠안고 일할 수밖에 없다고 말했다.
+                    </div>
+
+                </div>
+            </div>
+
+            
+            <div id="part2_prgph3_wrap">
+                <div id="part2_prgph3">
+                    <strong>위험하지만 포기할 수 없는 뒷발판</strong>
+                    <hr>
+                    <p>
+                        중대재해처벌법 시행 이후 뒷발판을 완전히 제거했지만, 
+                        여전히 환경미화원들은 차량 뒤쪽에 매달린 채 이동하고 있다. 
+                        현재는 뒷발판의 역할을 적재함 잠금장치용 덮개가 대신하고 있었다.
+                    </p>
+                    <div id="part2_prgph3_img_wrap">
+                        <figure>
+                            <img id="part2_prgph3_img_1" src="img/part2_prgph3_img_1.png">
+                            <figcaption>6월 10일(금) 종로구 환경미화원이 압착 진개차 뒤에 매달려 이동하고 있다. </figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <img id="part2_prgph3_img_2" src="img/part2_prgph3_img_2.png">
+                            <img id="part2_prgph3_img_2_mobile" src="img/part2_prgph3_img_2_mobile.png">
+                            <figcaption>7월 29일(금) 노원구 환경미화원이 덤프 트럭 뒤에 매달려 이동하고 있다. </figcaption>
+                        </figure>
+                    </div>
+                    <p>
+                        중대재해처벌법 시행 이전에도 뒷발판은 도로교통법에 위반되는 설치물이었다. 
+                        하지만 환경미화원의 과중한 업무를 소화하기 위해 암묵적으로 용인됐었다. 
+                        그러다 중대재해처벌법 대상자로 경영책임자인 대행업체 사업주, 중앙행정기관장, 지방자치단체장까지 적용되자 
+                        수거 차량의 뒷발판이 제거됐다. 
+                        <br><br>
+                        금천구 환경미화원들도 ‘안전’을 위해서는 뒷발판 제거에 동의하는 입장이다. 
+                        차량 외부에 몸을 실을 경우, 무방비로 차량과 충돌할 위험이 있고 
+                        악천후엔 추락 사고로 이어지기 쉽기 때문이다. 
+                        <br><br>
+                        그런데도 수거원이 차량 뒤편에 매달리는 이유는, 
+                        촘촘한 간격으로 놓인 배출 장소에서 쓰레기를 빠르게 수거하기 위해서다. 
+                        뒤에 매달리지 않으면 너비 5m가 넘는 차량의 앞뒤를 오가다 작업이 지연된다. 뿐만 아니라, 
+                        1.5미터 이상 높이의 차량 조수석에서 반복적으로 오르내리기 때문에 근골격에 부담을 줄 수 있다. 
+                        <br><br>
+                        이처럼 뒷발판을 제거한 후 노동 강도가 높아진 것을 증명하기 위해 
+                        금천구·도봉구·구로구 환경미화원의 걸음 수를 만보기로 측정하고 있다는 
+                        민주노총 전국일반노조연맹 금천지부 환경분회 백수현 사무장의 연락을 받았다. 
+                        그의 연락을 받고 생활 쓰레기를 수거하는 환경미화원의 노동 현장을 찾았다.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Part 3. 주 6일, 하루 평균 20km, 30,000보-->
+    <div id="part3">
+        <div id="article_title" class="article_title_serif">Part 3.</div>
+        <div id="article_title">주 6일, 하루 평균 20km, 30,000보</div>
+
+        <div class="part3_prgph1">
+            <video muted playsinline autoplay loop>
+                <source src="video/lee_roh_convo.mov" type="video/mp4">
+            </video>
+            <div class="part3_prgph1_text">
+                <p>
+                    <strong>
+                        “형, 어제 (걸음 수) 얼마 나왔어? 난 어제 집에서 보니까 3만 4천”
+                        <br><br>
+                        “넌 차 졸졸 따라다니까 그렇지”
+                        <br><br>
+                        “나 어제 차 타고 다녔는데 그 정도 나왔는데”
+                        <br><br>
+                    </strong> 
+                </p>
+            </div>
+        </div>
+
+        <div class="text_content" id="part3_prgph2_wrap">
+            <div id="part3_prgph2">
+                <p>
+                    금천구 대행업체 한일크린 소속 환경미화원 이동진 씨와 노우창 씨가 선 작업 도중 나눈 대화다. 
+                    토요일을 제외한 매일 밤 9시, 그들은 수거 차량이 진입할 수 없는 비좁은 골목에 놓인 쓰레기를 모아 
+                    큰 도로에 내놓는 선 작업을 시작한다.
+                    도로에 정차한 수거 차량이 통행을 방해하지 않도록 쓰레기봉투를 한데 모아야 하기 때문이다.
+                </p>
+            </div>
+        </div>
+
+        <div class="text_content" id="part3_prgph3_wrap">
+            <div id="part3_prgph3">
+                <div><img class="clock" src="img/clock.png">7월 8일(금) <strong>21시 40분</strong> 금천구 독산동의 한 골목 어귀</div>
+                <hr>
+                <br>
+                <div>손수레에 일반쓰레기 봉투를 싣고 있는 이동진 씨를 만났다. 
+                    그의 조끼 오른쪽 주머니에는 만보기가 달려있었다. 
+                    뒷발판을 제거한 후 그의 평균 걸음 수는 3만 보다.</div>
+            </div>
+        </div>
+
+        <div id="part3_prgph3_img_wrap">
+            <figure id="part3_prgph3_img_figure">
+                <img id="part3_img_lee_haengjoo" src="img/part3_lee_haengjoo.jpeg">
+                <figcaption>이동진 씨가 끌고 다니는 파란색 손수레에는 오물을 닦는 행주가 묶여있다.</figcaption>
+            </figure>
+            <figure id="part3_prgph3_img_figure">
+                <img id="part3_img_lee_moretrash" src="img/part3_lee_moretrash.jpeg">
+                <figcaption>이동진 씨는 2년 전보다 맡은 구역이 늘어나면서 처리해야 하는 쓰레기의 양도 늘어났다고 말했다. </figcaption>
+            </figure>
+        </div>
+
+        <div class="text_content" id="part3_prgph4_wrap">
+            <div id="part3_prgph4">
+                “3만 보가 하루 평균이에요. 
+                윗동네는 맡은 구역이 넓어서 하루에 5만 보 나와요. 
+                우리 차량은 3.2t 짜리고 그쪽은 5t이라 평균 주행 거리만 42km 정도예요. 
+                그 구역을 맡은 수거원은 그 거리를 죄다 걸어 다니는 거죠” 
+            </div>
+        </div>
+
+        <div id="part3_prgph5_wrap">
+            <video muted playsinline autoplay loop>
+                <source src="video/part3_lee_prgph5.mov" type="video/mp4">
+            </video>
+            <div class="part3_prgph5_text">
+                <p>그가 맡은 구역의 골목은 승용차 하나 겨우 지나다닐 수 있을 정도로 좁다.
+                    어떤 골목은 손수레도 끌고 들어가기 힘들어서 그가 일일이 손으로 들고 나오기도 한다.
+                    <br><br>
+                    “대다수 환경미화원이 뒷발판 제거 후에 일이 더 힘들어졌다고 생각할 거예요.
+                    차라리 발판 있는 게 낫죠. 
+                    상식적으로 뒷발판을 떼버리는 건 현장을 고려하지 않은 거예요.
+                    지금 잠깐씩 올라타면서 작업해도 하루에 3만 보가 나오는데.”
+                </p>
+            </div>
+        </div>
+
+        <div id="part3_prgph6_img_wrap">
+            <figure id="part3_prgph6_img_figure">
+                <img id="part3_img_jang_walk" src="img/part3_jang_walk.jpeg">
+                <figcaption>작업을 시작한 지 4시간이 지난 새벽 1시. 금천구 한일크린 장광섭 환경미화원의 걸음 수는 3만 2천 보다.</figcaption>
+            </figure>
+            <figure id="part3_prgph6_img_figure_2">
+                <img id="part3_img_roh_walk" src="img/part3_roh_walk.png">
+                <figcaption>환경미화원 노우창 씨가 작업한지 1시간이 지난 22시. 그의 걸음 수는 1만 5천 보다.</figcaption>
+            </figure>
+        </div>
+
+        <!-- <div id="part3_work_per1">
+            <div id="part3_work_per1_title">2020년 자치구별 작업량 현황</div>
+
+            <div class="part3_container">
+                <div id="part3_work_per1_sign">※목록에서 자치구 이름을 클릭해 2020년 환경미화원 작업량을 알아보세요.</div>
+
+                <div class="category_container" style="margin-top: 20px;">
+                    <div class="category" onclick="toggleImg()">A구</div>
+                    <div class="category" onclick="toggleImg2()">B구</div>
+                    <div class="category" onclick="toggleImg3()">C구</div>
+                    <div class="category" onclick="toggleImg()">D구</div>
+                    <div class="category" onclick="toggleImg2()">E구</div>
+                    <div class="category" onclick="toggleImg3()">F구</div>
+                    <div class="category" onclick="toggleImg()">G구</div>
+                    <div class="category" onclick="toggleImg2()">H구</div>
+                    <div class="category" onclick="toggleImg3()">I구</div>
+                    <div class="category" onclick="toggleImg()">J구</div>
+                    <div class="category" onclick="toggleImg2()">K구</div>
+                    <div class="category" onclick="toggleImg3()">L구</div>
+                    <div class="category" onclick="toggleImg()">M구</div>
+                    <div class="category" onclick="toggleImg2()">N구</div>
+                    <div class="category" onclick="toggleImg3()">O구</div>
+                </div>
+
+                <div id="img_district_container">
+                    <div id="part3_work_per1_imgcontainer">
+                        <img id="img" src="img/map1.png" />
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!--금천구, 구로구, 도봉구 평균 걸음 수 시각화 (PC)-->
+        <div id="part3_prgph7_tableau_wrap_pc">
+            <div>
+                <figcaption><strong>뒷발판 지지 전후 걸음수의 변화</strong><small>&nbsp;&nbsp;*뒷발판은 적재함 잠금장치용 덮개를 의미합니다.</small></figcaption>
+                <div class='tableauPlaceholder' id='viz1659969790825' style='position: relative'><noscript><a href='#'><img alt='PC(D) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part3_PC_&#47;PCD&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Part3_PC_&#47;PCD' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part3_PC_&#47;PCD&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ko-KR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659969790825');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='477px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='477px';} else { vizElement.style.width='800px';vizElement.style.height='477px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+
+        </div>
+        
+        <!--금천구, 구로구, 도봉구 평균 걸음 수 시각화 (Mobile)-->
+        <div id="part3_prgph7_tableau_wrap_mobile">
+            <figcaption style="margin-bottom: 10px;">
+                <strong>뒷발판 지지 전후 걸음수의 변화</strong>
+                <br>
+                <small>*뒷발판은 적재함 잠금장치용 덮개를 의미합니다.</small>
+            </figcaption>
+            <div class='tableauPlaceholder' id='viz1659969968722' style='position: relative'><noscript><a href='#'><img alt='Mobile(D) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part3___16599699600140&#47;MobileD&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Part3___16599699600140&#47;MobileD' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;Part3___16599699600140&#47;MobileD&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ko-KR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659969968722');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='320px';vizElement.style.height='407px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>       
+        </div>
+
+        <div class="text_content" id="part3_prgph7_wrap">
+            <div id="part3_prgph7">
+                위 그래프는 7월 중 12일간 금천구·구로구·도봉구 환경미화원의 걸음 수를 시각화한 차트이다. 적재함 잠금장치용 덮개를 발판 삼아 작업할 때 걸음 수는 1만 5천 보를 웃돌고 있었다. 그러나 발판을 제거한 7일 차부터는 걸음 수가 2만 9천 보로, 거의 2배가량 증가하였다. 
+                <br><br>
+                금천구 환경미화원 이정원 씨도 뒷발판 유무에 따른 일의 강도는 하늘과 땅 차이라고 답했다. 
+                “지금 점차 수거 차량이 저상차로 바뀌는 과도기라고 생각해요.
+                하지만 저상차도 자치구 현장에 따라 맞지 않을 수 있죠. 
+                적재함은 작은데 차체는 커져서 좁은 골목을 통행하기 어려우니까요”
+                라며 무리없이 빠르게 오르내리기 쉬운 저상차 교체가 더딘 이유는
+                예산 부족 문제만이 아니라고 말했다.
+            </div>
+        </div>
+
+        <div class="text_content" id="part3_prgph8_wrap">
+            <div id="part3_prgph8">
+                <p>
+                    <img class="clock" src="img/clock.png"><strong>22시 30분</strong>
+                        <hr>
+                    <br>
+                    이 씨는 편의점 앞에서 동료 노우창 씨를 만났다. 
+                    노 씨는 환경미화원 7개월 차다.
+                    <br><br>
+                    <strong>&nbsp;- 일한 지 7개월 정도 됐는데, 다친 적도 있나요?</strong>
+                    <br>
+                    “있죠, 그럼. 게 껍데기나 뾰족한 과일 껍질에 많이 찔려요. 
+                    2주 전에 재활용 쓰레기봉투에 들어있는 게 껍데기에 찔렸어요. 
+                    일반 쓰레기봉투 안에 있는 주사기 바늘에 찔리는 경우도 있고요. 
+                    그러면 일 끝나고 병원 가서 파상풍 주사를 맞아요. 
+                    목장갑을 끼고 일해도 그냥 이곳저곳에서 많이 찔려요” 
+                    <br><br>
+                    7년 차인 이 씨도 1년에 한두 번은 유리나 뾰족한 것에 꼭 찔린다고 답했다.
+                </p>
+            </div>
+        </div>
+
+        <div class="text_content" id="part3_prgph9_wrap">
+            <video muted playsinline autoplay loop>
+                <source src="video/part3_23_50_lee.mov" type="video/mp4">
+            </video>
+            <div id="part3_prgph9">
+                <p>
+                    <img class="clock" src="img/clock.png"><strong>23시 50분
+                        <hr>
+                        <br>
+                        이 씨와 1차 선 작업을 끝내고 처음 만났던 장소로 돌아왔다. 
+                        선 작업이 끝나면 큰 도로에 나와 있는 쓰레기봉투를 수거 차량에 싣는 작업이 진행된다.
+                    </strong>
+                </p>
+            </div>
+        </div>
+
+        <div id="part3_prgph9_2_wrap">
+            <div id="part3_prgph9_2">
+                3.5t 수거 차량 운전기사 A씨는 학생들이 취재를 위해 동행할 경우 
+                맡은 구역의 절반은 뛰어다녀야 할 것이라며 거절했다. 
+                <br><br>
+                “차에 쓰레기봉투를 실을 때는 차를 졸졸 따라다녀야 하니까 훨씬 힘들어요. 
+                그래서 운전기사도 학생들이 취재하는 걸 꺼리는 거예요"라며 
+                이 씨는 운전기사가 동행을 거절한 이유를 설명했다.
+            </div>
+        </div>
+
+        
+        <div class="text_content" id="part3_prgph10_wrap">
+            <video muted playsinline autoplay loop>
+                <source src="video/part3_23_50_lee_2.mov" type="video/mp4">
+            </video>
+            <div id="part3_prgph10">
+                <p>
+                    5t 수거 차량 운전기사 이정원 씨는 쓰레기를 한 트럭 채울 때까지만 태워주겠다며 조수석 문을 열어줬다. 
+                    차에 올라 타니 수거 차량 후미를 볼 수 있는 모니터가 보였다. 
+                    수거원들이 쓰레기봉투를 싣고, 적재함 잠금 장치용 덮개에 올라탄 모습을 확인할 수 있었다.
+                </p>
+            </div>
+        </div>
+        
+        <!-- <div id="part3_prgph11_strong_wrap">
+            <strong>덮개에 매달린 수거원들이 위험해 보여요</strong>
+        </div> -->
+        <div class="text_content" id="part3_prgph11_wrap">            
+            <figure>
+                <video id="part3_prgph11_vid" muted playsinline autoplay loop>
+                    <source src="video/part3_23_50_stopswitch.mp4" type="video/mp4">
+                </video>
+                <figcaption>적재함 잠금장치용 덮개에 수거원 두 명이 매달려있는 모습을 차량 모니터로 확인할 수 있다.</figcaption>
+            </figure>
+            
+            <div id="part3_prgph11">
+                <div>
+                    <strong>&nbsp;- 덮개에 매달린 수거원들이 위험해 보여요</strong>
+                </div>
+                “차가 크니까 대로변에서만 작업하는데 밤이라서 차들이 엄청 쌩쌩 다녀요. 
+                운전하는 저도 겁나는데 뒤에 매달려서 일하는 사람들은 더 무섭겠죠. 
+                그래서 저는 매일 세차해요. 
+                밤에 작업하려면 차가 밝아야 안전하니까요. 정말 차를 무지하게 닦습니다”
+                <br><br>
+                <div>
+                    <strong>&nbsp;- 주변 동료의 사고를 목격한 적도 있나요?</strong>
+                </div>
+                “많이 봤죠. 운전하다 보면 주변 동료가 아니더라도 교통사고를 자주 봐요. 
+                가만히 서 있기만 해도 들이받을 때도 있어요.
+                2년 전에 다른 회사에서 사고났다고 전화와서 알게 된 경우가 있었어요. 
+                적재함에 발판이 있을 때가 익숙하니까 발을 습관적으로 올리게 되거든요. 
+                신참이 선배가 발을 올리는 걸 보고 그냥 자연스럽게 발을 올리고 있다가 
+                본의 아니게 유압 압착 기계에 빠졌다는 거예요. 
+                안전화를 신었으니 발톱만 빠지고 끝났지, 
+                안전화 아니었으면 쇠 덮개 적재함에 눌려서 발이 으스러졌겠죠”
+            </div>
+        </div>
+
+        <!-- <div id="part3_prgph12_strong_wrap">
+            <strong>00시 20분 독산동에 위치한 H 산업센터 </strong>
+        </div> -->
+        <div class="text_content" id="part3_prgph12_wrap">            
+            <video id="part3_prgph12_vid" muted autoplay loop>
+                <source src="video/part3_00_20_H_1.mov" type="video/mp4">
+            </video>
+            
+            <div id="part3_prgph12">
+                <p>
+                    <img class="clock" src="img/clock.png"><strong>00시 20분 독산동에 위치한 H 산업센터 </strong>
+                    <hr>
+                    <br>
+                    환경미화원의 노동 강도는 지역 특성에 따라 상이하다. 
+                    유독 좁은 골목이 많거나, 위험한 쓰레기봉투가 많이 배출되거나, 맡은 구역이 더 넓을 수도 있다. 
+                    이런 특성이 환경미화원의 노동 환경 개선 방안을 자치구에 일률적으로 적용하기 어려운 이유다. 
+                    <br><br>
+                    “금천구에 특히 봉제공장이 많아서 
+                    옷 만들고 남은 자투리 원단 쓰레기가 정말 많이 배출돼요. 
+                    천이라서 75L 봉제 쓰레기봉투 하나에 40kg 정도 나가요”
+                </p>
+            </div>
+        </div>
+        
+        <div class="text_content" id="part3_prgph13_wrap">            
+            <video id="part3_prgph13_vid" muted playsinline autoplay loop>
+                <source src="video/part3_00_20_H_2.mov" type="video/mp4">
+            </video>
+            
+            <div id="part3_prgph13">
+                <p>
+                    그들은 바닥에 질질 끌 정도로 무거운 봉제 쓰레기봉투를 무릎 반동을 이용해 적재함에 던졌다. 
+                    한 환경미화원은 작업 도중 75L 쓰레기봉투 위에 몸을 기대 숨을 골랐다. 
+                    성인 여성이 두 손으로 들었을 때, 겨우 땅에 떨어질 정도의 무게였다. 
+                    이정원 씨는 빨리 실어야 그만큼 더 쉴 수 있으니까 한 번에 두세 개씩 처리한다고 했다. 
+                    <br><br>
+                    “지금까지 봉제 쓰레기 98개를 치웠어요. 
+                    매일 집계하고 있는데 하루 최소 80개에서 최대 298개까지 처리해요. 
+                    어제는 210개. 오늘은 첫 장소에서만 98개니까 양이 많은 편이죠. 
+                    저번 주는 총 900개를 실었고 한 달에 최대 5,000개까지 실은 적 있어요”
+                </p>
+            </div>
+        </div>
+        
+
+        <div class="text_content" id="part3_prgph14_wrap">            
+            <video id="part3_prgph14_vid" muted playsinline autoplay loop>
+                <source src="video/part3_00_52.mov" type="video/mp4">
+            </video>
+            
+            <div id="part3_prgph14">
+                <p>
+                    <img class="clock" src="img/clock.png"><strong>9일(토) 00:52분 독산동 금천자원재활용처리장(적환장)</strong>
+                    <hr><br>
+                    5t 트럭에 탑승한 지 한 시간 정도 지났다.
+                    꽉 찬 적재함을 비우러 가는 길. 
+                    이정원 씨는 이제 오늘 작업의 5분의 1이 끝났다고 말한다. 
+                    그는 적재함을 비우고 바로 쓰레기를 실으러 출발했다. 
+                    <br><br>
+                    나머지 작업은 밤새 이어졌고 이정원 씨는 
+                    오전 6시에 모든 작업이 끝났다며 문자를 보냈다. 
+                    당일 처리한 봉제 쓰레기 집계 표를 찍은 사진과 함께.
+                </p>
+            </div>
+        </div>
+
+        <div class="text_content" id="part3_prgph15_wrap">  
+            <!-- <img src="img/part3_00_52_lee.jpeg">
+            <div id="part3_prgph15_wrap_caption" style="width:25vw; font-size: 14px">
+                이정원 씨는 매일 작업 구역에서 나오는 
+                봉제 쓰레기 봉투의 개수를 집계한다. 
+                7월 9일(토)에 처리한 봉제 쓰레기는 총 <strong>188</strong>개다. 
+            </div> -->
+            <figure>
+                <img src="img/part3_00_52_lee.jpeg">
+                <figcaption>
+                    이정원 씨는 매일 작업 구역에서 나오는 
+                    봉제 쓰레기 봉투의 개수를 집계한다. 
+                    7월 9일(토)에 처리한 봉제 쓰레기는 총 <strong>188</strong>개다. 
+                </figcaption>
+            </figure>          
+            
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- Part 4. 허울뿐인 ‘환경미화원 작업안전 가이드라인' -->
+    <div id="outro">
+        <div id="article_title" class="article_title_serif">Part 4.</div>
+        <div id="article_title">허울뿐인 ‘환경미화원 작업안전 가이드라인'</div>
+        <!-- <div class="article_title_small">전문가 인터뷰 - 환경미화원의 열악한 노동환경을 개선할 해결책</div> -->
+       
+        <div class="outro_prgph_wrap" id="outro_prgph_wrap1">
+            <div id="outro_prgph1">
+                2019년 3월 환경부는 ‘환경미화원 작업 안전 지침'을 전국 지자체에 통보했다. 
+                주간작업 전환, 3인 1조 작업, 악천후로부터 보호 등 환경미화원의 안전한 노동 환경을 구축하겠다는 내용이 골자다. 
+                그리고 올해 2월 발표한 ‘환경미화원 작업안전 가이드라인'에는 안전장치 설치 및 보호장구 규정 등이 개선됐다. 
+                <br>
+
+                <div id="part4_img_interview_wrap">
+                    <figure>
+                        <img id="part4_img_interview" src="img/part4_img_interview.png">
+                        <figcaption>7월 1일(금) 금천구 환경미화원 최상열 씨는 “대행업체 환경미화원이 소방관보다 산재 건수가 더 높다고”고 말했다. </figcaption>
+                    </figure>
+                </div>
+                
+                <br>
+                문제는 작업안전 가이드라인이 현장에서 제대로 반영되지 않는다는 것이다. 
+                7월 초, 금천구 4년 차 환경미화원 최상열 씨는 
+                “엊그저께 금천이 비 제일 많이 왔는데도 작업했다. 
+                2년 전에 버스도 못 다닐 정도로 폭설내렸을 때 딱 한 번 쉬었다”며 
+                악천후로 작업 중지하는 경우는 드물다고 전했다. 
+                6월 29일(수)은 중부지방에 오전 1시부터 호우주의보가 발효된 날이다. 
+                30일(목) 금천구는 일간 누적 강수량 196mm를 기록했다. 
+                서울시 평균 일간 누적 강수량은 176mm였다. 
+                <br><br>
+                110년만에 기록적인 폭우가 내렸던 지난 8일(월)에도 강남구 환경미화원들은 비에 젖어 미끄러운 적재함에 올라타 평소대로 쓰레기를 수거했다. 
+                최 씨는 지켜지지 않을 안전 지침 개정보다 높아진 
+                노동 강도에 대한 정당한 보상이 필요하다고 덧붙였다.
+                <br><br><br>
+                이에 한국노동사회연구소 연구위원 박채은 씨는 임금 인상과 인력 충원은
+                 높아진 노동 강도를 해결하기 위한 근본적인 방법이 될 수 없다고 말했다. 
+                <br><br>
+                <strong>&nbsp;- 임금 인상이 근본적인 해결책이 될 수 없는 이유가 궁금하다.</strong>
+                <br>
+                임금 문제에서 그치면 안전사고와 산재를 줄일 수 없다. 
+                산업안전보건법을 살펴보면 사업주에게 근로자들의 안전과 보건 보장과 증진 등에 관해 규정하고 있다. 
+                해당 시행령에 따라 적절한 조처를 할 수 있도록 요구를 할 수 있어야 한다. 
+                예를 들어 뙤약볕에서 내내 일하는 노동자가 임금을 올려달라고 요구할 것이 아니라 
+                이런 곳에서 일하면 생명이 위태로우니 작업을 중지할 수 있게 해달라는 요구가 필요하다. 
+                <br><br>
+                <strong>&nbsp;- 그렇다면 노동자의 노동 안전 인식 개선이 필요하다는 뜻인가. </strong>
+                <br>
+                사업주가 기본적으로 산업안전보건법 의무를 지켜야 한다는 생각이 제일 중요하다. 
+                노동자 대상 안전 교육뿐만 아니라 사업주 대상 안전 교육이 필요하다. 
+                사고가 일어난 후 교육받는 수강 명령이 아니라 선제적으로 사업장 수준에 따라 이뤄져야 한다. 
+                <br><br>
+                “재해를 줄이기 위한 방법은 자명하다.
+                 각 현장에 맞는 안전 및 보건 조치 의무를 사업주가 제대로 이행하는 것이다. 
+                 휴게시간 확보, 노동시간 축소, 악천후 등 위험한 상황에서의
+                  작업 중지가 제대로 이루어질 수 있어야 한다”고 박 연구위원은 강조했다.
+            </div>
+            <div id="outro_writers">
+                <div class="team_name">저널리즘팀</div>
+                정세진&nbsp;
+                조은수&nbsp;
+                박성영&nbsp;
+                이유민
+                <br><br>
+                <div class="team_name">개발팀</div>
+                장한빛
+            </div>
+        </div>
+    </div>
+
+    
+
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div id="project_name">Surfer</div>
+        <div id="copyright">2022. Project Surfer. All rights reserved.</div>
+    </div>
+
+    <!--toc_wrapper js-->
+    <script>
+        $(document).ready(function () {
+            var tmp = parseInt($("#toc_wrapper").css('top'));
+
+            $(window).scroll(function () {
+                var scrollTop = $(window).scrollTop();
+                var obj_position = scrollTop + tmp + "px";
+
+                $("#toc_wrapper").stop().animate({
+                    "top": obj_position
+                }, 500);
+
+            }).scroll();
+        });
+    </script>
+
+    <!--모바일 햄버거 버튼 js-->
+    <script>
+        // 모바일 햄버거 메뉴바 
+        let num = 0; 
+        let hamburger_button = document.querySelector('.mobile_hamburger_button');
+        $(hamburger_button).click(() => {
+            if(num % 2 == 0) {
+                hamburger_button.innerHTML = 'Ⅹ';  
+                $('.mobile_menu_container').css('height', '25vh');
+                $('.mobile_menu').css('height', '5vh');
+                setTimeout(()=>{
+                    $('.mobile_menu').css('display', 'block'); 
+                }, 150); 
+            } else {
+                hamburger_button.innerHTML = '&#9776;'; 
+                $('.mobile_menu_container').css('height', '0vh');
+                $('.mobile_menu').css('height', '0vh');
+                setTimeout(()=>{
+                    $('.mobile_menu').css('display', 'none'); 
+                }, 200); 
+            }
+            num += 1; 
+        })
+
+        let mobile_menus = document.querySelectorAll('.mobile_menu');
+        mobile_menus.forEach((mobile_menu) => {
+            $(mobile_menu).click(() => {
+                hamburger_button.innerHTML = '&#9776;'; 
+                $('.mobile_menu_container').css('height', '0vh');
+                $('.mobile_menu').css('height', '0vh');
+                setTimeout(()=>{
+                    $('.mobile_menu').css('display', 'none'); 
+                }, 200); 
+                num += 1; 
+            })
+        })
+
+        function animateScrollTo(_selector, _speed) {
+            let page = document.querySelector(_selector);
+            $("body,html").animate({
+                scrollTop : (page.offsetTop - 50) // offset: 50 
+            }, _speed);
+        }
+
+    </script>
+
+    <!--Part 2. 도입부 내러티브 aos 애니메이션-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: -100, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 3000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <!--Part 2. 청소차 부위별 문제점-->
+    <script>
+        // 청소차 이미지 클릭 시 좌표 출력
+        function action_coords(event) {
+            var x1 = event.clientX;
+            var y1 = event.clientY;
+            var x2 = event.offsetX;
+            var y2 = event.offsetY;
+            var x3 = event.screenX;
+            var y3 = event.screenY;
+            var coords = "clientX: " + x1 + ", clientY: " + y1 + "<br/>";
+            coords += "offsetX: " + x2 + ", offsetY: " + y2 + "<br/>";
+            coords += "screenX: " + x3 + ", screenY: " + y3;
+            console.log(coords);
+        }
+
+        // 청소차 부위별 클릭시 모달창 등장
+        var cameraModal = document.getElementById("cameraModal");
+        var camera = document.getElementById("camera");
+        var cameraSpan = document.getElementById("cameraSpan");
+
+        var safetySwitchModal = document.getElementById("safetySwitchModal");
+        var safetySwitch = document.getElementById("safetySwitch");
+        var safetySwitchSpan = document.getElementById("safetySwitchSpan");
+
+        var lightAndStripModal = document.getElementById("lightAndStripModal");
+        var lightAndStrip = document.querySelector(".lightAndStrip");
+        var lightAndStrip_2 = document.querySelector("#lightAndStrip_2");
+        var lightAndStrip_3 = document.querySelector("#lightAndStrip_3");
+        var lightAndStrip_4 = document.querySelector("#lightAndStrip_4");
+        // var lightAndStrip_5 = document.querySelector("#lightAndStrip_5");
+        var lightAndStripSpan = document.getElementById("lightAndStripSpan");
+
+        var stopSwitchModal = document.getElementById("stopSwitchModal");
+        var stopSwitch = document.getElementById("stopSwitch");
+        var stopSwitchSpan = document.getElementById("stopSwitchSpan");
+
+        cameraSpan.onclick = function () {
+            cameraModal.style.display = "none";
+        }
+        camera.onclick = function () {
+            cameraModal.style.display = "flex";
+        }
+        window.onclick = function(event) {
+            if (event.target == cameraModal) {
+                cameraModal.style.display = "none";
+            }
+        }
+
+
+        safetySwitchSpan.onclick = function () {
+            safetySwitchModal.style.display = "none";
+        }
+        safetySwitch.onclick = function () {
+            safetySwitchModal.style.display = "flex";
+        }
+        window.onclick = function(event) {
+            if (event.target == safetySwitchModal) {
+                safetySwitchModal.style.display = "none";
+            }
+        }
+
+
+        lightAndStripSpan.onclick = function () {
+            lightAndStripModal.style.display = "none";
+        }
+        lightAndStrip.onclick = function () {
+            lightAndStripModal.style.display = "flex";
+        }
+        lightAndStrip_2.onclick = function () {
+            lightAndStripModal.style.display = "flex";
+        }
+        lightAndStrip_3.onclick = function () {
+            lightAndStripModal.style.display = "flex";
+        }
+        lightAndStrip_4.onclick = function () {
+            lightAndStripModal.style.display = "flex";
+        }
+        // lightAndStrip_5.onclick = function () {
+        //     lightAndStripModal.style.display = "flex";
+        // }
+        window.onclick = function(event) {
+            if (event.target == lightAndStripModal) {
+                lightAndStripModal.style.display = "none";
+            }
+        }
+
+        stopSwitch.onclick = function () {
+            stopSwitchModal.style.display = "flex";
+        }
+        
+        stopSwitchSpan.onclick = function () {
+            stopSwitchModal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == stopSwitchModal) {
+                stopSwitchModal.style.display = "none";
+            }
+        }
+    </script>
+
+    <script>
+        ;(function($) {
+            $.fn.rwdImageMaps = function() {
+                var $img = this;
+
+                var rwdImageMap = function() {
+                    $img.each(function() {
+                        if (typeof($(this).attr('usemap')) == 'undefined')
+                            return;
+
+                        var that = this,
+                            $that = $(that);
+
+                        // Since WebKit doesn't know the height until after the image has loaded, perform everything in an onload copy
+                        $('<img />').on('load', function() {
+                            var attrW = 'width',
+                                attrH = 'height',
+                                w = $that.attr(attrW),
+                                h = $that.attr(attrH);
+
+                            if (!w || !h) {
+                                var temp = new Image();
+                                temp.src = $that.attr('src');
+                                if (!w)
+                                    w = temp.width;
+                                if (!h)
+                                    h = temp.height;
+                            }
+
+                            var wPercent = $that.width()/100,
+                                hPercent = $that.height()/100,
+                                map = $that.attr('usemap').replace('#', ''),
+                                c = 'coords';
+
+                            $('map[name="' + map + '"]').find('area').each(function() {
+                                var $this = $(this);
+                                if (!$this.data(c))
+                                    $this.data(c, $this.attr(c));
+
+                                var coords = $this.data(c).split(','),
+                                    coordsPercent = new Array(coords.length);
+
+                                for (var i = 0; i < coordsPercent.length; ++i) {
+                                    if (i % 2 === 0)
+                                        coordsPercent[i] = parseInt(((coords[i]/w)*100)*wPercent);
+                                    else
+                                        coordsPercent[i] = parseInt(((coords[i]/h)*100)*hPercent);
+                                }
+                                $this.attr(c, coordsPercent.toString());
+                            });
+                        }).attr('src', $that.attr('src'));
+                    });
+                };
+                $(window).resize(rwdImageMap).trigger('resize');
+
+                return this;
+            };
+        })(jQuery);
+
+        /* 반응형 이미지맵 */
+        $(function(){
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+
+</body>
+
+</html>

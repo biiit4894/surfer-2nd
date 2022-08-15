@@ -1,0 +1,666 @@
+figcaption {
+    line-height: 160%;
+}
+
+/* Part 2 */
+#part2 {
+    width: 100%;
+    padding-top: 300px;
+    background-color: black;
+    color: white;
+    overflow:hidden;
+}
+
+/* 내러티브 도입 - 청소차 */
+/* #car_fromleft_wrap {
+    margin-top: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+#car_fromleft {
+    width: 600px;
+}
+
+#falling_worker_wrap {
+    margin-top: -20vh;
+    margin-right: 18vw;
+    display: flex;
+    justify-content: center;
+}
+
+#falling_worker {
+    width: 250px;
+} */
+
+
+/* 내러티브 도입 - 인용구 */
+#mobile_part2_quote_wrap {
+    display: none;
+}
+
+#part2_quote_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#part2_quote {
+    max-width: 90vw;
+    /* background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px; */
+    border: 5px double rgb(26, 122, 43);
+    border-radius: 5px;
+    line-height: 180%;
+    color: #000000;
+    padding: 15px;
+    color: #ffffff;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+#part2_quote_mark {
+    font-size: 25px;
+}
+
+/* 산안 데이터 */
+
+#part2_cause_material_wrap {
+    /* width: 70vw; */
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#part2_cause_material_wrap figcaption {
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    margin-left: 210px;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+#part2_cause_material_mobile_wrap {
+    display: none;
+}
+
+#part2_cause_material {
+    width: 80vw;
+}
+
+#part2_prgph1_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#part2_prgph1 {
+    width: 600px;
+    line-height: 210%;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+#part2_prgph2 {
+    width: 600px;
+    line-height: 210%;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+#part2_prgph2_2_wrap {
+    display: flex;
+    justify-content: center;
+
+}
+
+#part2_prgph2_2 {
+    width: 600px;
+    line-height: 210%;
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#part2_prgph2_2 a,
+#part2_prgph2 a {
+    color: #16894a;
+}
+
+#part2_prgph2_2 a:visited,
+#part2_prgph2 a:visited {
+    color: #16894a;
+}
+
+
+#part2_prgph1 a {
+    color: #16894a;
+}
+#part2_prgph1 a:visited {
+    color: #16894a;
+}
+
+/* 작업과정 */
+#part2_problem {
+    display: flex;
+    justify-content: center;
+}
+#part2_problem_caption {
+    margin-left: 40px;
+    font-weight: 200;
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+    margin-bottom: 50px;
+}
+
+#part2_problem_caption {
+    font-size: 20px;
+}
+#figcaption_small {
+    font-size: 16px;
+    margin-left: 10px;
+}
+#figcaption_small span {
+    margin-right: 5px;
+}
+#part2_problem_car {
+    width: 800px;
+}
+
+/* 청소차 부위별 문제점 */
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* 부위 클릭 시 flex로 변함. */
+    position: fixed;
+    z-index: 999;
+    /* padding-top: 50px; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0);
+    /*rgba 지원 안될 경우 */
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+hr {
+    border: 0;
+    background-color: #989898;
+    height: 1.1px;
+}
+.modal-content {
+    text-align: left;
+    background-color: #fefefe;
+    color: #000000;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #888;
+    width: 55%;
+}
+
+.modal_content_title {
+    font-size: 25px; 
+    font-weight: 600; 
+}
+
+.modal_content_img_text_wrap {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+}
+.modal_content_img_wrap {
+    display: flex;
+}
+
+.modal_content_img_wrap figure {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
+
+.modal_content_img_wrap img {
+    width: 100%
+}
+
+.modal_content_img_wrap figcaption {
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+#light_strip_img_text_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#light_strip_img_wrap {
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#light_strip_text {
+    margin-top: 10px;
+}
+/* #light_strip_img {
+    width: 70%;
+} */
+
+.modal_content_text {
+    line-height: 180%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 배기관의 방향 전환, 여전히 불완전 */
+#part2_prgph2_wrap {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#part2_prgph2_wrap hr {
+    /* font-size: 10px; */
+}
+
+#part2_prgph2_wrap strong {
+    /* border-left: 1px solid #ffffff; */
+    font-size: 22px;
+}
+
+#part2_prgph2_img_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#part2_prgph2_img_1 {
+    margin-right: -10px;
+}
+
+#part2_prgph2_img_1,
+#part2_prgph2_img_2 {
+    height: 35vh;
+}
+
+#part2_prgph2_img_wrap figcaption {
+    /* margin-top: 10px; */
+    font-weight: 200;
+    font-size: 14px
+}
+
+#part2_prgph2 {
+    width: 600px;
+    line-height: 210%;
+    font-size: 18px;
+}
+
+/* 위험하지만 포기할 수 없는 뒷발판 */
+#part2_prgph3_wrap {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#part2_prgph3_wrap strong {
+    font-size: 22px;
+}
+
+#part2_prgph3_img_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#part2_prgph3_img_1 {
+    /* margin-right: -10px; */
+}
+
+#part2_prgph3_img_1{
+    width: 30vw;
+    margin-right: -20px;
+}
+
+#part2_prgph3_img_2  {
+    width: 22vw;
+}
+
+#part2_prgph3_img_2_mobile {
+    display: none;
+}
+
+
+#part2_prgph3 {
+    width: 600px;
+    line-height: 210%;
+    font-size: 18px;
+}
+
+#part2_prgph3_img_wrap figcaption {
+    margin-top: 5px;
+    font-weight: 200;
+    font-size: 14px
+}
+
+
+
+
+/* 세로모드 모바일 디바이스 - 1*/
+@media (max-width: 575px) {
+    /* 내러티브 도입 - 청소차 */
+    /* #car_fromleft_wrap {
+        margin-top: 20vh;
+        display: flex;
+        justify-content: center;
+    }
+    #car_fromleft {
+        width: 90vw;
+    }
+
+    #falling_worker_wrap {
+        margin-top: -5vh;
+        margin-right: 30vw;
+        display: flex;
+        justify-content: center;
+    }
+    #falling_worker {
+        width: 40vw;
+    } */
+
+    /* 내러티브 도입 - 인용구 */
+
+    #part2 {
+        padding-top: 0px;
+    }
+    #part2_quote_wrap {
+        display: none;
+    }
+
+    #mobile_part2_quote_wrap {
+        display: flex;
+        justify-content: center;
+        margin: 30vh 2vw 10vh 2vw;
+    }
+
+    #part2_quote {
+        line-height: 200%;
+        color: #ffffff;
+        font-weight: 400;
+        padding: 30px 20px;
+        font-size: 15px;
+    }
+
+    #part2_quote_mark {
+        font-size:20px;
+    }
+    
+    #part2_prgph1 {
+        width: 88vw;
+        line-height: 180%;
+        font-size: 16px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    /* 산안 데이터 */
+    #part2_cause_material_wrap {
+        display: none;
+    }
+
+    #part2_cause_material_mobile_wrap {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        width: 98vw;
+
+    }
+
+    #part2_cause_material_mobile_wrap figcaption {
+        font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+        font-weight: 200;
+        font-size: 14px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+
+    #part2_cause_material {
+        width: 99vw;
+    }
+    
+    #part2_problem_car {
+        width: 98vw;
+        height: auto;
+    }
+
+    #part2_problem figcaption {
+        margin-left: 5vw;
+        font-size: 12px;
+    }
+
+    #figcaption_small {
+        margin-top: 6px;
+        line-height: 140%;
+        font-size: 14px;
+        display: flex;
+    }
+
+    #figcaption_small span {
+        margin-right: 4px;
+    }
+
+
+    #part2_prgph2,
+    #part2_prgph3 p {
+        width: 88vw;
+        line-height: 180%;
+        font-size: 16px;
+    }
+
+    #part2_prgph2_2 {
+        width: 88vw;
+        line-height: 180%;
+        font-size: 16px;
+    }
+
+    /* Modal */
+    .modal-content {
+        text-align: left;
+        background-color: #fefefe;
+        color: #000000;
+        margin: auto;
+        padding: 5vw;
+        border: 1px solid #888;
+        width: 75%;
+        line-height: 160%;
+    }
+    
+    .modal_content_title {
+        font-size: 18px; 
+        font-weight: 600; 
+    }
+    
+    .modal_content_img_text_wrap {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        
+    }
+    .modal_content_img_wrap {
+        display: flex;
+    }
+    
+    .modal_content_img_wrap figure {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 5vw;
+        margin-inline-end: 5vw;
+    }
+    
+    .modal_content_img_wrap img {
+        width: 100%
+    }
+    
+    .modal_content_img_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal_content_text {
+        font-size: 14px;
+    }
+
+    .modal_content_img_wrap figcaption {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    /* 배기관의 방향 전환, 여전히 불완전 */
+
+    #part2_prgph2_wrap {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #part2_prgph2_img_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #part2_prgph2_img_1,
+    #part2_prgph2_img_2 {
+        width: 80vw;
+        height: auto;
+        margin-right: 0;
+    }
+
+    #part2_prgph2_img_wrap figcaption {
+        /* margin-top: 10px; */
+        font-weight: 200;
+        font-size: 12px
+    }
+
+    /* 위험하지만 포기할 수 없는 뒷발판 */
+    #part2_prgph3_wrap {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #part2_prgph3_wrap strong {
+        font-size: 20px;
+    }
+
+    #part2_prgph3_img_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #part2_prgph3_img_1 {
+        /* margin-right: -10px; */
+    }
+
+    #part2_prgph3_img_1{
+        width: 80vw;
+        margin-right: 0;
+    }
+
+    #part2_prgph3_img_2  {
+        display: none;
+        
+    }
+
+    #part2_prgph3_img_2_mobile {
+        display: inline;
+        width: 80vw;
+    }
+    
+
+
+    #part2_prgph3 {
+        width: 90vw;
+        line-height: 210%;
+        font-size: 16px;
+    }
+
+    #part2_prgph3_img_wrap figcaption {
+        margin-top: 5px;
+        font-weight: 200;
+        font-size: 12px
+    }
+    #part2_prgph3_img_1 figcaption {
+        width: 70vw;
+    }
+    
+    #part2_prgph3_img_2 figcaption {
+        width: 60vw;
+    }
+    
+
+
+}
+
+
+/* 세로모드 모바일 디바이스 - 2*/
+@media (max-width: 450px) {
+
+}
+
+/* 가로모드 모바일 디바이스 */
+@media (max-width: 767px) {
+
+
+}
+
+/* 갤럭시 폴드 가로모드 - 대처 노답 */
+@media (width: 653px) {
+
+
+}
+
+/* 태블릿 디바이스 */
+@media (max-width: 991px) {
+    
+
+}
+
+/* 데스크탑 */
+@media (max-width: 1199px) {
+    
+}

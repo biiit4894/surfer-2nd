@@ -1,0 +1,131 @@
+/* 최상단 navbar */
+#navbar {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5vh;
+    padding-top: 4vh;
+    background-color: #000000;
+    border-bottom: 1px solid rgb(123, 123, 123);
+    font-weight: 300;
+    
+}
+
+#navbar a {
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+}
+
+#linked_icon_github {
+    margin-right: 18px;
+    margin-left: 2vw;
+}
+
+#navbar a:visited {
+    color: #ffffff;
+}
+
+#left_items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+#surfer_icon{
+    width: 4vh;
+    height: 4vh;
+    margin-left: 2vw;
+}
+
+/* #github_icon {
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1vw;
+}
+
+#notion_icon {
+    width: 4vh;
+    height: 4vh;
+} */
+
+/* 모바일 햄버거 버튼 */
+.mobile_hamburger_container {
+    box-sizing: border-box;
+    display: none;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    left: 0px;
+    z-index: 2;
+    text-align: center;
+}
+
+.mobile_hamburger_button {
+    border: none;
+    background-color: transparent;
+    font-weight: border;
+    font-size: 1.5rem;
+    height: 5vh;
+    color: #000000;
+}
+
+.mobile_menu_container {
+    position: fixed;
+    width: 100%;
+    height: 0vh; /*full height: 30vh*/
+    top: 6vh;
+    left: 0px;
+    z-index: 999;
+    background-color: white;
+    transition: height ease-in-out 0.3s;
+}
+
+.mobile_menu {
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 0vh; /*full height: 6vh*/
+    text-align: center;
+    font-weight: border;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    padding-top: 11px;
+    transition: height ease-in-out 0.3s;
+}
+
+.mobile_menu:hover {
+    background-color: #cfcfcf;
+}
+
+
+/* 세로모드 모바일 디바이스 */
+@media (max-width: 575px) {
+    #navbar {
+        display: none;
+    }
+    .mobile_hamburger_container {
+        display: block;
+    }
+}
+
+/* 태블릿 디바이스 */
+@media (max-width: 991px) {
+    #navbar {
+        display: none;
+    }
+    .mobile_hamburger_container {
+        display: block;
+    }
+
+}
+
+/* 데스크탑 */
+@media (max-width: 1199px) {
+    
+}
